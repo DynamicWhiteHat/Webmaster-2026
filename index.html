@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Hub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo">
+                <h2 class="logo-text">Community Hub</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="calendar.html" class="nav-link">Calendar</a></li>
+                <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                <li class="nav-item"><a href="reference.html" class="nav-link">Reference Page</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Community Hub</h2>
+                    <h3 class="subtitle">Where the Community Comes Together</h3>
+                    <p class="description">Find support services, local programs, nonprofits, and events—all in one
+                        place.</p>
+                    <div class="buttons">
+                        <a href="resources.html" class="button browse">Browse Resources</a>
+                        <a href="calendar.html" class="button calendar">View The Calendar</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="assets/park.png" alt="park" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!-- <section class="main section">
+                <div class="section-content">
+                    <h2 class="section-title">Explore Our Resources</h2>
+                    <p class="section-description">Discover a wide range of resources and support services available in your community. From local programs to nonprofit organizations, we have everything you need to connect with the help you deserve.</p>
+                    <a href="#" class="button browse">Browse Resources</a>
+                </div>
+        </section> -->
+        <section class="events">
+            <h2 class="section-title">Highlighted Events</h2>
+            <p class="subtitle">Check out some of the exciting events happening in our community!</p>
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="events-list swiper-wrapper">
+                        <li class="event swiper-slide">
+                            <img src="assets/STEMZ.png" alt="StemZ" class="event-image">
+                            <span class="event-tag">Education</span>
+                            <h3 class="name">StemZ</h3>
+                            <i class="feedback">Interactive STEM workshops for youth in the Richmond area.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/ICNA.png" alt="ICNA Relief" class="event-image">
+                            <span class="event-tag">Outreach</span>
+                            <h3 class="name">ICNA Relief</h3>
+                            <i class="feedback">Food drives, tutoring, and youth development for the community.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/C4C.png" alt="Code4Cause" class="event-image">
+                            <span class="event-tag">Education</span>
+                            <h3 class="name">Code4Cause</h3>
+                            <i class="feedback">Coding skills used to build solutions for real-world social
+                                problems.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/BioTech.png" alt="Biotech" class="event-image">
+                            <span class="event-tag">Education</span>
+                            <h3 class="name">Biotech</h3>
+                            <i class="feedback">Hands-on genetics, life sciences, and medical research for students.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/Goat.png" alt="LAMB's Basket" class="event-image">
+                            <span class="event-tag">Food</span>
+                            <h3 class="name">LAMB's Basket</h3>
+                            <i class="feedback">Food distribution and essential supplies for families in need.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/McShin.png" alt="McShin Foundation" class="event-image">
+                            <span class="event-tag">Health</span>
+                            <h3 class="name">McShin Foundation</h3>
+                            <i class="feedback">Addiction recovery, peer support, and rehabilitation services.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/PHF.png" alt="Public Health" class="event-image">
+                            <span class="event-tag">Health</span>
+                            <h3 class="name">Richmond & Henrico Public Health</h3>
+                            <i class="feedback">Preventative healthcare and health equity programs in the community.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/umma.png" alt="VOU" class="event-image">
+                            <span class="event-tag">Youth</span>
+                            <h3 class="name">VOU</h3>
+                            <i class="feedback">Youth-run volunteer programs across Richmond building civic
+                                engagement.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/multi.png" alt="Multicultural Festival" class="event-image">
+                            <span class="event-tag">Culture</span>
+                            <h3 class="name">Multicultural Festival</h3>
+                            <i class="feedback">Cultural exhibits, performances, and food celebrating Richmond's
+                                diversity.</i>
+                        </li>
+
+                        <li class="event swiper-slide">
+                            <img src="assets/UTurn.png" alt="U-Turn Sports" class="event-image">
+                            <span class="event-tag">Youth</span>
+                            <h3 class="name">U-Turn Sports</h3>
+                            <i class="feedback">Sports activities creating safe spaces and positive change for young
+                                people.</i>
+                        </li>
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

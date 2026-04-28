@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo">
+                <h2 class="logo-text">Community Hub</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="calendar.html" class="nav-link">Calendar</a></li>
+                <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                <li class="nav-item"><a href="reference.html" class="nav-link">Reference Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="resource-list">
+            <h2 class="section-title">Explore Our Resources</h2>
+            <p class="subtitle">Discover a wide range of programs and opportunities in your community.</p>
+            <div class="search-filter-bar">
+                <input type="text" id="search" placeholder="Search resources...">
+                <select id="filter">
+                    <option value="">All Categories</option>
+                    <option value="education">Education</option>
+                    <option value="food">Food</option>
+                    <option value="health">Health</option>
+                    <option value="youth">Youth</option>
+                    <option value="culture">Culture</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="full-list">
+            <div class="card-container">
+                <article class="card-article" data-category="education" data-name="StemZ">
+                    <img src="assets/STEMZ.png" alt="StemZ" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">StemZ</span>
+                        <h2 class="card-title">STEM Program</h2>
+                        <a href="https://www.stemzprogram.org/" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="education" data-name="ICNA Relief">
+                    <img src="assets/ICNA.png" alt="ICNA Relief" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">ICNA Relief</span>
+                        <h2 class="card-title">Community Outreach</h2>
+                        <a href="https://icnarelief.org/" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="education" data-name="Code4Cause">
+                    <img src="assets/C4C.png" alt="Code4Cause" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">Code4Cause</span>
+                        <h2 class="card-title">Coding for Good</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="education" data-name="Biotech">
+                    <img src="assets/BioTech.png" alt="Biotech" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">Biotech</span>
+                        <h2 class="card-title">Biological Sciences</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="food" data-name="LAMB's Basket">
+                    <img src="assets/Goat.png" alt="LAMB's Basket" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">LAMB's Basket</span>
+                        <h2 class="card-title">Food & Essential Aid</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="health" data-name="The McShin Foundation">
+                    <img src="assets/McShin.png" alt="McShin Foundation" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">The McShin Foundation</span>
+                        <h2 class="card-title">Addiction Recovery</h2>
+                        <a href="https://mcshinfoundation.org/" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="health" data-name="Richmond & Henrico Public Health">
+                    <img src="assets/PHF.png" alt="Richmond & Henrico Public Health" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">Richmond & Henrico Public Health</span>
+                        <h2 class="card-title">Community Wellness</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="youth" data-name="VOU">
+                    <img src="assets/umma.png" alt="VOU" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">VOU</span>
+                        <h2 class="card-title">Youth Volunteerism</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="culture" data-name="Multicultural Festival">
+                    <img src="assets/multi.png" alt="Multicultural Festival" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">Imagine Richmond</span>
+                        <h2 class="card-title">Multicultural Festival</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+
+                <article class="card-article" data-category="youth" data-name="U-Turn Sports">
+                    <img src="assets/UTurn.png" alt="U-Turn Sports" class="card-img">
+                    <div class="card-data">
+                        <span class="card-description">U-Turn Sports</span>
+                        <h2 class="card-title">Sports & Youth Dev</h2>
+                        <a href="#" class="card-button">Visit Website</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="form-section">
+                <h2>Suggest a Resource</h2>
+                <p>Know of a resource we're missing? Let us know!</p>
+                <form action="https://formspree.io/f/mbdqvony" method="POST">
+                    <label>
+                        Your Email
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                    <label>
+                        Resource Name
+                        <input type="text" name="resource-name" placeholder="e.g. Henrico Food Bank" required>
+                    </label>
+                    <label>
+                        Category
+                        <select name="category">
+                            <option value="">Select a category</option>
+                            <option value="food">Food</option>
+                            <option value="housing">Housing</option>
+                            <option value="health">Health</option>
+                            <option value="education">Education</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                    <label>
+                        Description
+                        <textarea name="message" placeholder="Tell us about this resource..."></textarea>
+                    </label>
+                    <button type="submit">Submit Resource</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
