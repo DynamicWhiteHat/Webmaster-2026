@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,31 @@
     <link rel="stylesheet" href="styles.css">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js'></script>
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth'
+            });
 
-      document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth'
+            calendar.addEvent({ title: 'McShin Foundation - Recovery Fest', date: '2026-09-19', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'Multicultural Festival - Imagine Richmond', date: '2026-06-27', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'Richmond & Henrico Public Health Foundation - National Minority Health Month Outreach', date: '2026-04-30', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'Arts in the Park Richmond VA', date: '2026-09-20', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'Richmond Folk Festival', date: '2026-10-09', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'Richmond Folk Festival - 2nd Street Festival', date: '2026-10-03', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'CBG Jamboree Basketball Events Richmond, VA', date: '2026-10-25', color: '#2d8c4e' });
+            calendar.addEvent({ title: '66th Annual Armenian Food Festival', date: '2026-10-03', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'RVA MakerFest', date: '2026-10-18', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'The McShin Foundation - Destiny House 3rd Anniversary Celebration', date: '2026-04-23', color: '#2d8c4e' });
+            calendar.addEvent({ title: '51st Annual ICNA-MAS Convention', date: '2026-05-23', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'FOOD distribution - Lamb Baskets', date: '2026-05-20', color: '#2d8c4e' });
+            calendar.addEvent({ title: 'Youth Sports Day - U-Turn Sports', date: '2026-06-20', color: '#2d8c4e' });
+
+            calendar.render();
         });
-        calendar.addEvent({ title: 'New Event', date: '2026-05-20', color: '#2d8c4e' });
-
-        calendar.render();
-      });
-
     </script>
 </head>
+
 <body>
     <header>
         <nav class="navbar section-content">
@@ -43,4 +56,5 @@
         </div>
     </main>
 </body>
+
 </html>
